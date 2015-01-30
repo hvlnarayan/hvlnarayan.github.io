@@ -4,11 +4,31 @@
     <title>Bootstrap learning</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
   </head>
   <body>
     <h1>Hello, juicy!</h1>
+    <i class="icon-search"></i>
+    <button type="button" class="btn btn-large btn-primary disabled" disabled="disabled">Primary button</button>
+    <button type="button" class="btn btn-large" disabled>Button</button>
+    <input type="text" data-provide="typeahead">
+    <div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">D:/photos/19803/farewell d_17 may 2006/1.jpg</div>
+    <div class="item">D:/photos/19803/farewell d_17 may 2006/Picture 027.jpg</div>
+    <div class="item">D:/photos/19803/farewell d_17 may 2006/Picture 028.jpg</div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
